@@ -1,0 +1,76 @@
+body {
+    background-image: url(images/fon.png);
+    color: white;
+    font-family: sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.menu-header {
+    display: flex;
+}
+
+.menu-item {
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.welcome {
+    background-color: black;
+    position: relative;
+}
+
+
+
+
+.welcome-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.about-text {
+    max-width: 500px;
+    font-size: 22px;
+    line-height: 1.2;
+    position: absolute;
+    left: 50%;
+    top: 25%;
+    transform: translateX(-50%);
+    text-shadow: 3px 3px 4px rgb(0, 0, 0);
+}
+ /************* About Section*************/
+
+ .about {
+margin-top: 50px;
+margin-bottom: 50px;
+ }
+
+
+ .section-heading {
+font-size: 40px;
+text-align: center;
+color: rgb(255, 255, 255);
+font-weight: normal;
+ }
+ .about-wrapper {
+    display: flex;
+    justify-content: center;
+ }
+ .about-image{
+    margin-right: 60px;
+ }
+ .about-item{ 
+    display: flex;
+    margin-top: 35px;
+ }
+ .about-item h3 {
+margin-left: 5px;
+
+ }
